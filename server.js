@@ -24,8 +24,12 @@ const COLUMNS = [
   'kcal',
   'description',
 ];
+
 app.get('/api/food', (req, res) => {
+
   const param = req.query.q;
+
+  console.log(`Looking up foods filtered by ${param}`);
 
   if (!param) {
     res.json({

@@ -1,0 +1,14 @@
+{
+  "ignore": [
+    ".git",
+    "client",
+    "node_modules"
+  ],
+  "watch": [
+    "server",
+    "server.js",
+    "nodemon.json"
+  ],
+  "verbose": true,
+  "ext": "js json"
+}
