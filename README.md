@@ -15,6 +15,13 @@ yarn install
 npm run server
 ```
 
+If you have issues with sqlite on a mac
+
+```
+npm install sqlite3 --build-from-source
+yarn install
+```
+
 ### Client
 ```
 cd client

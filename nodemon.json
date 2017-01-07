@@ -6,6 +6,7 @@
   ],
   "watch": [
     "api/",
+    "server.js",
     "nodemon.json"
   ],
   "verbose": true,
