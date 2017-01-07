@@ -19,7 +19,7 @@
     "sql.js": "^0.4.0"
   },
   "scripts": {
-    "start": "babel-node server.js",
+    "start": "babel-node api/app.js",
     "server": "nodemon"
   }
 }

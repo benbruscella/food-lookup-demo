@@ -5,8 +5,7 @@
     "node_modules"
   ],
   "watch": [
-    "server",
-    "server.js",
+    "api/",
     "nodemon.json"
   ],
   "verbose": true,
