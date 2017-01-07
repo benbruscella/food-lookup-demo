@@ -29,10 +29,11 @@ app.get('/api/food', (req, res) => {
     return;
   }
 
-  db('entries').where('description', 'like', `%${param}%`).limit(100)
-  .then((data) => {
-    res.json(data);
-  });
+  db.select('*')
+  .from('entries')
+  .where('description', 'like', `%${param}%`)
+  .limit(100)
+  .then((data) => res.json(data));
 
 });
 
